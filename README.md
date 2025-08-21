@@ -17,4 +17,13 @@ Experiment 1: basic string, list, and function problems.
 - Python 3
 
 💡 *Keep it simple. Run code. Explore. Learn.*  
-  
+
+## Code - Explains 
+### 01 Alphabet Soup Problem
+line 1: `def alphabet_soup(word):`
+	•	creates a function named alphabet_soup
+ 	•	it stores one parameter, word (str) string.
+line 2: `(sorted(word, key=str.lower))`
+	•	
+
+
