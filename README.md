@@ -23,20 +23,24 @@ Experiment 1: basic string, list, and function problems.
  `def alphabet_soup(word):`
 - creates a function named alphabet_soup
 - It stores one parameter, a word (str) string.
-<br />
+
+
  `(sorted(word, key=str.lower))`
 - **sorted()** takes the string and breaks it into individual characters
 - **key=str.lower** ensures sorting is case-insensitive
-<br />
+
+
  `"".join(sorted(word, key=str.lower))`
 - **join()** takes the sorted list of characters and combines them back into a single string.
-<br />
+
+
 `print(sorted_word)`
 - shows the alphabetically sorted version of the input (str) string.
-<br />
-`alphabet_soup`("type here")
+
+
+`alphabet_soup("type here")`
 - a user or tester of the program will input their chosen text to be arranged alphabetically inside the parentheses, and running the cell will sort it.
-<br />
+
 
 ### 02 😀 Emoticon Problem
 `def emotify(sentence):`
