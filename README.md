@@ -19,11 +19,46 @@ Experiment 1: basic string, list, and function problems.
 💡 *Keep it simple. Run code. Explore. Learn.*  
 
 ## Code - Explains 
-### 01 Alphabet Soup Problem
+### 01 🔠 Alphabet Soup Problem
 line 1: `def alphabet_soup(word):`
 - creates a function named alphabet_soup
-- it stores one parameter, word (str) string.
-line 2: `(sorted(word, key=str.lower))`
-- 
+- It stores one parameter, a word (str) string.
+line 2.1: `(sorted(word, key=str.lower))`
+- **sorted()** takes the string and breaks it into individual characters
+- **key=str.lower** ensures sorting is case-insensitive
+line 2.2: `"".join(sorted(word, key=str.lower))`
+- **join()** takes the sorted list of characters and combines them back into a single string.
+line 3: `print(sorted_word)`
+- shows the alphabetically sorted version of the input (str) string.
+line 4: `alphabet_soup`("type here")
+- a user or tester of the program will input their chosen text to be arranged alphabetically inside the parentheses, and running the cell will sort it.
+
+### 02 😀 Emoticon Problem
+line 1: `def emotify(sentence):`
+- creates a function named emotify
+- it stores one argument, a sentence (str) string.
+line 2: `emoticons = {"smile":":)", "grin":":D", "sad":":((", "mad":">:("}`
+- creates a **dictionary** where; keys are words ("smile", "grin", "sad", "mad") and the values corresponding emoticons (":)", ":D", ":((", ">:("),
+line 3: `words = sentence.split()`
+- **split()** breaks the input string into a list, separating by spaces.
+  e.g. "I am sad" -->["I", 'am", "sad"]
+line 4: `output = [emotions.get(word, word) for word in words]
+- a list
+- **emotions.get(word, word)** look up the word in the dictionary
+- if it exists it will use the emoticon
+- if not it will just keep the original input word.
+line 5: `return " ".join(output)`
+- turns the list back into sentence
+line 6: `emotify("I am sad")`
+- calls the function with the sentence "I am sad"
+- it will output "I am :(("
+
+
+
+
+
+
+
+
 
 
