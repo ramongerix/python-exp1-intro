@@ -37,20 +37,25 @@ line 3: `print(sorted_word)`
 line 4: `alphabet_soup`("type here")
 - a user or tester of the program will input their chosen text to be arranged alphabetically inside the parentheses, and running the cell will sort it.
 <br />
+
 ### 02 😀 Emoticon Problem
 line 1: `def emotify(sentence):`
 - creates a function named emotify
 - it stores one argument, a sentence (str) string.
+<br />
 line 2: `emoticons = {"smile":":)", "grin":":D", "sad":":((", "mad":">:("}`
 - creates a **dictionary** where; keys are words ("smile", "grin", "sad", "mad") and the values corresponding emoticons (":)", ":D", ":((", ">:("),
+<br />
 line 3: `words = sentence.split()`
 - **split()** breaks the input string into a list, separating by spaces.
   e.g. "I am sad" -->["I", 'am", "sad"]
+<br />
 line 4: `output = [emotions.get(word, word) for word in words]
 - a list
 - **emotions.get(word, word)** look up the word in the dictionary
 - if it exists it will use the emoticon
 - if not it will just keep the original input word.
+<br />
 line 5: `return " ".join(output)`
 - turns the list back into sentence
 line 6: `emotify("I am sad")`
