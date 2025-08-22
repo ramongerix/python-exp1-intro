@@ -16,7 +16,6 @@ Experiment 1: basic string, list, and function problems.
 - VSCode or Jupyter Notebook
 - Python 3
 
-💡 *Keep it simple. Run code. Explore. Learn.*  
 
 ## Code - Explains 
 ### 01 🔠 Alphabet Soup Problem
@@ -92,8 +91,11 @@ Slicing
 `print("first:", first,    "middle:", middle,   "last:, last")`
 - displays the unpacked values in one line
 
-  
 
+
+
+  
+💡 *Keep it simple. Run code. Explore. Learn.*  
 
 
 
