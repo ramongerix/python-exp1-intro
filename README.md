@@ -1,4 +1,4 @@
-## ECE2112 - Introduction to Python
+## 👾 ECE2112 - Introduction to Python 🐍
 Experiment 1: basic string, list, and function problems.
 
 ## Contents
@@ -70,6 +70,31 @@ Experiment 1: basic string, list, and function problems.
 `emotify("I am sad")`
 - calls the function with the sentence "I am sad"
 - it will output "I am :(("
+
+
+### 03 📤 Unpacking List Problem
+Sample input of 1, 2, 3, 4, 5, 6
+`list = [1, 2, 3, 4, 5, 6]`
+- creates a list containing those desired numbers
+
+Slicing
+`first = list[0]`
+- gets the first element of the list which is 1
+- *python uses 0-start index*
+
+`middle = list[1:-1]`
+- slice starting at index 1 and stopping before the last element
+- it outputs everything except the first and last values because -1 excludes the last value, showing all values before it.
+
+`last = list[-1]`
+- gets the last element of the list which is 6
+
+`print("first:", first,    "middle:", middle,   "last:, last")`
+- displays the unpacked values in one line
+
+  
+
+
 
 
 
